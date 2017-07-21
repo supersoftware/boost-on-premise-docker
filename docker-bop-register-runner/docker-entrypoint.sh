@@ -31,5 +31,6 @@ else
     --executor $EXCUTOR \
     --docker-image $DOCKER_IMAGE \
     --docker-volumes $DOCKER_VOLUMES \
-    --docker-dns $DOCKER_DNS
+    --docker-dns $DOCKER_DNS \
+    --docker-dns 169.254.169.250
 fi
